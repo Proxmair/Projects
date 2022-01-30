@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin:0;
+    vertical-align: baseline;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+}
+#quote-box
+{
+    margin-top: 25vh;
+    width: 60vw;
+    margin-left: 20vw;
+    background-color: rgb(243, 236, 217);
+    border-radius: 5px;
+    height: 42.5%;
+}
+#footer
+{
+    width: 60vw;
+    margin-left: 20vw;
+    height: 7.5%;
+}
+#quote-text
+{
+    min-height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quote-text>h1{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family:monospace;
+    color:rgb(243, 236, 217);
+    font-size: 4vh;
+}
+
+
+#quote-author
+{
+    height: 10%;
+    text-align: right;
+}
+#quote-author
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(243, 236, 217);
+    margin-right: 30px;
+    font-size: 100%;
+    font-weight: 100;
+}
+#buttons
+{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 30px;
+    justify-content: space-between;
+}
+.button{
+    border: none;
+    border-radius: 5px;
+    color: rgb(243, 236, 217);
+    font-size: 3vw;
+}
+.button>a{
+    color: rgb(243, 236, 217);
+}
+.button:hover{
+    opacity: 0.9;
+
+}
+#newquote-button{
+    padding: 10px;
+    font-size: 100%;
+}
+#facebook-button ,#guthub-button{
+    margin-left: 20px;
+    width: 4.5vw;
+    height: 4.5vw;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    margin-top: 2vh;
+    color:rgb(243, 236, 217);
+    font-family: monospace;
+    text-decoration: underline;
+    font-size: larger;
+}
